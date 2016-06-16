@@ -25,7 +25,7 @@ function createMap(data){
 
 		markers.push(marker);
 
-		map.addLayer(marker);
+		//map.addLayer(marker);
 	});
 
 
@@ -67,7 +67,7 @@ function createMap(data){
 		clusters.addLayer(marker);
 	});
 
-	map.addLayer(clusters);
+	//map.addLayer(clusters);
 
 	// heatmap 1=weight
 
@@ -84,7 +84,7 @@ function createMap(data){
 		minOpacity: 0.3
 	});
 
-	map.addLayer(heat);
+	//map.addLayer(heat);
  
 
  // Layers
