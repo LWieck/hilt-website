@@ -85,7 +85,15 @@ function createMap(data){
 	});
 
 	map.addLayer(heat);
+ 
 
+ // Layers
+
+ var layers = L.control.layers({
+ 	'Clusters': clusters,
+ 	'Heatmap': heat,
+ 	'Points': L.layerGroup(markers),
+ }).addTo(map);
 
 
 }
