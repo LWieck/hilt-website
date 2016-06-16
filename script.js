@@ -93,7 +93,7 @@ function createMap(data){
 //on page start
 
 $(function(){
-	$.getJSON('donq.geoJSON', function(data) {
+	$.getJSON('donq.geojson', function(data) {
 		createMap(data);
 	});
 	
